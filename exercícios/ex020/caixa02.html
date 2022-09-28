@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image :linear-gradient(to right , rgba(0, 0, 255, 0.194),rgba(14, 57, 185, 0.533));
+            margin: 0px;
+            
+        }
+
+        header {
+            background-color: aliceblue;
+            padding: 12px;
+            margin: 12px;
+        }
+        nav {
+            background-color: rgba(51, 38, 88, 0.318);
+            padding: 4px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.265);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 35px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: aliceblue;
+            padding: 12px;
+            margin: 12px;
+            margin: 10px;
+            border-radius: 9px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.199);
+        }
+
+        article{
+            background-color: rgba(100, 148, 237, 0.449);
+            padding: 10px;
+        }
+
+        article > aside {
+            background-color: rgba(77, 114, 184, 0.568);
+        }
+
+        footer {
+            background-color: rgba(79, 84, 208, 0.279);
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+            
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height : 100px;
+            width: 100px;
+            margin: 30px;
+            background-color: rgb(17, 34, 187);
+            border-radius: 50%;
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+       <h1>Meu site</h1>
+       <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+       </nav>
+    </header>
+    <main>
+       <section id="assunto">
+             <p>Culinária e Lazer</p>
+       </section>
+       <section id="noticias">
+           <article>
+               <h2>Notícia sobre o Brasil</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione reprehenderit eaque debitis harum, magni dolor? Voluptatibus consectetur autem sit magnam corrupti, qui earum. Sequi, adipisci omnis in assumenda voluptas exercitationem.</p>
+               <aside>
+                <p>Artigo escrito por Lucas Juvino</p>
+               </aside>
+           </article>
+       </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

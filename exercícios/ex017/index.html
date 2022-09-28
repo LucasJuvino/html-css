@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2? family= Marck+Script & display=swap');
+
+        @import url('https://fonts.googleapis.com/css2? family= Marck+Script &família= Rubik+Dirt & display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Marck+Script&family=Rubik+Dirt&display=swap');
+
+
+        @font-face {
+            font-family: 'Meu';
+            src: url('fonts/PWHappyChristmas.ttf') format('truetype');
+            /*
+            Tipos de format()
+            -opentype (otf)
+            -truetype (ttf)
+            */
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: black;
+            /* Medidas Absolutas
+            cm, mm ,in(polegada),px,pt,pc
+            
+            Medidas Relativas
+            em,ex,rem,vw,vh,%
+            16px geralmente = 1em
+            32px = 2em
+
+            */
+            font-size: 17pt;
+        }
+
+        h1 {
+        /* - font-style -> font-weight -> font-size -> font-family 
+        ex: */
+        font-family: 'Fredericka the Great';
+        font-weight: normal;
+        
+        font-size: 3em;
+        }
+
+        h2 {
+        font-family: 'Meu'; 
+        font-size: 2em;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quas repellendus nisi ex ea explicabo natus at aspernatur similique voluptate, fuga modi veritatis voluptatum ipsam alias, enim ad. Sint, vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, harum voluptate recusandae qui expedita aut rerum officia quae maxime sapiente maiores, accusamus a! Culpa aspernatur quam repudiandae ratione soluta veniam?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, est placeat. Quam fuga voluptatibus repudiandae eum cum ut laudantium rem a non magnam? Earum odit veritatis animi qui, labore a.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quos quisquam atque totam numquam corrupti non? Dignissimos nesciunt perferendis suscipit praesentium placeat natus voluptatibus at fuga, adipisci, enim, consectetur laboriosam.</p>
+</body>
+</html>
